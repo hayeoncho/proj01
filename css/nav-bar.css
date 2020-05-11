@@ -16,3 +16,22 @@
 .nav__list-item i {
     font-size: 20px;
 }
+
+.nav .nav__list-link {
+    position: relative;
+}
+
+.nav .nav__badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    color: white;
+    background-color: #dc5d46;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    font-size: 11px;
+}
